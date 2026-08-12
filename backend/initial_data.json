@@ -1,0 +1,3542 @@
+[
+  {
+    "model": "menu.category",
+    "pk": 5,
+    "fields": {
+      "name": "Starters",
+      "slug": "starters"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 6,
+    "fields": {
+      "name": "Soups",
+      "slug": "soups"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 7,
+    "fields": {
+      "name": "Tiffins",
+      "slug": "tiffins"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 8,
+    "fields": {
+      "name": "Curries",
+      "slug": "curries"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 10,
+    "fields": {
+      "name": "Biryani",
+      "slug": "biryani"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 11,
+    "fields": {
+      "name": "Pulav",
+      "slug": "pulav"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 12,
+    "fields": {
+      "name": "Fried Rice",
+      "slug": "fried-rice"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 13,
+    "fields": {
+      "name": "Noodles",
+      "slug": "noodles"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 14,
+    "fields": {
+      "name": "Naan & Rotis",
+      "slug": "naan-rotis"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 15,
+    "fields": {
+      "name": "Rice & Meals",
+      "slug": "rice-meals"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 16,
+    "fields": {
+      "name": "Desserts",
+      "slug": "desserts"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 17,
+    "fields": {
+      "name": "Sweets",
+      "slug": "sweets"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 18,
+    "fields": {
+      "name": "Juices & Beverages",
+      "slug": "juices-beverages"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 19,
+    "fields": {
+      "name": "Ice Creams",
+      "slug": "ice-creams"
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 20,
+    "fields": {
+      "name": "Special Items",
+      "slug": "special-items"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 47,
+    "fields": {
+      "category": 5,
+      "name": "Chicken Tikka",
+      "slug": "chicken-tikka",
+      "description": "Chicken Tikka: Tender chicken marinated in aromatic spices and grilled to smoky, juicy perfection.",
+      "price": "320.00",
+      "price_half": "192.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Tikka.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 48,
+    "fields": {
+      "category": 5,
+      "name": "Crispy Chicken 65",
+      "slug": "crispy-chicken-65",
+      "description": "Crispy Chicken 65: Crispy, juicy chicken bites tossed in bold spices for a fiery and flavorful favorite.",
+      "price": "300.00",
+      "price_half": "180.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Crispy_Chicken_65.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 49,
+    "fields": {
+      "category": 5,
+      "name": "Chilli Chicken",
+      "slug": "chilli-chicken",
+      "description": "Chilli Chicken: Crispy chicken tossed with spicy sauces, peppers, and onions for a bold Indo-Chinese flavor.",
+      "price": "280.00",
+      "price_half": "168.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chilli_Chicken.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 50,
+    "fields": {
+      "category": 5,
+      "name": "Chicken Lollypop",
+      "slug": "chicken-lollypop",
+      "description": "Chicken Lollipop: Juicy chicken wings coated in flavorful spices and fried to crispy perfection.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Lollypop.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 51,
+    "fields": {
+      "category": 5,
+      "name": "Chicken Popcorn",
+      "slug": "chicken-popcorn",
+      "description": "Chicken Popcorn: Bite-sized crispy chicken pieces seasoned to perfection for an irresistible crunchy snack.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Popcorn.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 52,
+    "fields": {
+      "category": 5,
+      "name": "Dragon Chicken",
+      "slug": "dragon-chicken",
+      "description": "Dragon Chicken – Crispy fried chicken tossed in a spicy, tangy, and flavorful sauce with peppers and aromatic seasonings.",
+      "price": "280.00",
+      "price_half": "168.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Dragon_Chicken.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 53,
+    "fields": {
+      "category": 5,
+      "name": "Chicken Fry",
+      "slug": "chicken-fry",
+      "description": "Chicken Fry – Juicy chicken pieces marinated in aromatic spices and perfectly fried to a crispy, flavorful finish.",
+      "price": "300.00",
+      "price_half": "180.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Fry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 54,
+    "fields": {
+      "category": 5,
+      "name": "Afghani Chicken",
+      "slug": "afghani-chicken",
+      "description": "Afghani Chicken – Tender chicken marinated in a rich blend of cream, yogurt, and aromatic spices, grilled to smoky perfection.",
+      "price": "420.00",
+      "price_half": "252.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Afghani_chicken.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 55,
+    "fields": {
+      "category": 5,
+      "name": "Mutton Ghee Roast",
+      "slug": "mutton-ghee-roast",
+      "description": "Mutton Ghee Roast – Succulent mutton slow-roasted in aromatic spices and pure ghee for a rich, spicy, and flavorful experience.",
+      "price": "450.00",
+      "price_half": "270.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Ghee_Roast.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 56,
+    "fields": {
+      "category": 5,
+      "name": "Mutton Chops",
+      "slug": "mutton-chops",
+      "description": "Mutton Chops – Tender and juicy mutton chops marinated in aromatic spices and cooked to perfection for a rich, savory flavor.",
+      "price": "480.00",
+      "price_half": "288.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Chops.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 57,
+    "fields": {
+      "category": 5,
+      "name": "Mutton Fry",
+      "slug": "mutton-fry",
+      "description": "Mutton Fry – Tender mutton pieces sautéed with aromatic spices and herbs for a rich, spicy, and flavorful dish.",
+      "price": "460.00",
+      "price_half": "276.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Fry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 58,
+    "fields": {
+      "category": 5,
+      "name": "Mutton Kebab",
+      "slug": "mutton-kebab",
+      "description": "Mutton Kebab – Succulent minced mutton blended with aromatic spices and grilled to perfection for a smoky, flavorful delight.",
+      "price": "420.00",
+      "price_half": "252.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Kebab.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 59,
+    "fields": {
+      "category": 5,
+      "name": "Fish Fry",
+      "slug": "fish-fry",
+      "description": "Fish Fry – Fresh fish marinated in aromatic spices and fried to crispy perfection for a delicious coastal flavor.",
+      "price": "390.00",
+      "price_half": "234.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Fish_Fry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 60,
+    "fields": {
+      "category": 5,
+      "name": "Apollo Fish",
+      "slug": "apollo-fish",
+      "description": "Apollo Fish – Crispy fish fillets tossed in a spicy, tangy, and flavorful sauce for an irresistible seafood delight.",
+      "price": "490.00",
+      "price_half": "294.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Apollo_Fish.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 61,
+    "fields": {
+      "category": 5,
+      "name": "Fish Tikka",
+      "slug": "fish-tikka",
+      "description": "Fish Tikka – Tender fish pieces marinated in aromatic spices and grilled to smoky perfection for a delicious appetizer.",
+      "price": "480.00",
+      "price_half": "288.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Fish_Tikka.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 62,
+    "fields": {
+      "category": 5,
+      "name": "Prawns Fry",
+      "slug": "prawns-fry",
+      "description": "Prawns Fry – Juicy prawns marinated in flavorful spices and pan-fried to perfection for a crispy and delicious seafood treat.",
+      "price": "520.00",
+      "price_half": "312.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Prawns_Fry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 63,
+    "fields": {
+      "category": 5,
+      "name": "Prawns 65",
+      "slug": "prawns-65",
+      "description": "Prawns 65 – Crispy, spicy prawns tossed with aromatic spices and herbs for a bold and irresistible flavor.",
+      "price": "460.00",
+      "price_half": "276.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Prawns_65.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 64,
+    "fields": {
+      "category": 5,
+      "name": "Tandoori Prawns",
+      "slug": "tandoori-prawns",
+      "description": "Tandoori Prawns – Juicy prawns marinated in aromatic spices and yogurt, then grilled in a tandoor for a smoky and flavorful taste.",
+      "price": "470.00",
+      "price_half": "282.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Tandoori_Prawns.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 65,
+    "fields": {
+      "category": 5,
+      "name": "Crab Pepper Fry",
+      "slug": "crab-pepper-fry",
+      "description": "Crab Pepper Fry – Succulent crab cooked with freshly ground black pepper and aromatic spices for a bold and flavorful seafood delight.",
+      "price": "520.00",
+      "price_half": "312.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Crab_Pepper_Fry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 66,
+    "fields": {
+      "category": 5,
+      "name": "Paneer Tikka",
+      "slug": "paneer-tikka",
+      "description": "Paneer Tikka – Soft paneer cubes marinated with aromatic spices and grilled to perfection for a smoky and flavorful vegetarian delight.",
+      "price": "380.00",
+      "price_half": "228.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Paneer_Tikka.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 67,
+    "fields": {
+      "category": 5,
+      "name": "Paneer Majestic",
+      "slug": "paneer-majestic",
+      "description": "Paneer Majestic – Crispy paneer strips tossed with aromatic spices, creamy flavors, and a delicious blend of herbs for a royal vegetarian treat.",
+      "price": "390.00",
+      "price_half": "234.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Paneer_Majestic.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 68,
+    "fields": {
+      "category": 5,
+      "name": "Crispy Corn",
+      "slug": "crispy-corn",
+      "description": "Crispy Corn – Golden sweet corn kernels coated with flavorful spices and fried to a crispy perfection for a tasty snack.",
+      "price": "300.00",
+      "price_half": "180.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Crispy_Corn.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 69,
+    "fields": {
+      "category": 5,
+      "name": "Baby Corn 65",
+      "slug": "baby-corn-65",
+      "description": "Baby Corn 65 – Crispy baby corn tossed with spicy aromatic seasonings and herbs for a flavorful vegetarian appetizer.",
+      "price": "340.00",
+      "price_half": "204.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Baby_Corn_65.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 70,
+    "fields": {
+      "category": 5,
+      "name": "Gobi Manchurian",
+      "slug": "gobi-manchurian",
+      "description": "Gobi Manchurian – Crispy cauliflower florets tossed in a spicy, tangy Manchurian sauce with aromatic flavors for a delicious Indo-Chinese delight.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Gobi_Manchurian.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 71,
+    "fields": {
+      "category": 5,
+      "name": "Onion Pakoda",
+      "slug": "onion-pakoda",
+      "description": "Onion Pakoda – Crispy onion slices coated with seasoned gram flour batter and fried to golden perfection for a flavorful snack.",
+      "price": "200.00",
+      "price_half": "120.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Onion_Pakoda.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 72,
+    "fields": {
+      "category": 6,
+      "name": "Sweet Corn Soup",
+      "slug": "sweet-corn-soup",
+      "description": "Sweet Corn Soup – A warm and comforting soup made with sweet corn, fresh vegetables, and flavorful seasonings for a delicious start to your meal.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Sweet_Corn_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 73,
+    "fields": {
+      "category": 6,
+      "name": "Hot and Sour Soup",
+      "slug": "hot-and-sour-soup",
+      "description": "Hot and Sour Soup – A spicy and tangy soup blended with fresh vegetables, aromatic spices, and bold flavors for a refreshing taste.",
+      "price": "280.00",
+      "price_half": "168.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Hot_and_Sour_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 74,
+    "fields": {
+      "category": 6,
+      "name": "Broccoli Soup",
+      "slug": "broccoli-soup",
+      "description": "Broccoli Soup – A creamy and nutritious soup made with fresh broccoli, herbs, and rich flavors for a wholesome dining experience.",
+      "price": "290.00",
+      "price_half": "174.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Broccoli_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 75,
+    "fields": {
+      "category": 6,
+      "name": "Manchow Soup",
+      "slug": "manchow-soup",
+      "description": "Manchow Soup – A spicy Indo-Chinese soup loaded with fresh vegetables, aromatic spices, and crispy noodles for a flavorful experience.",
+      "price": "300.00",
+      "price_half": "180.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Manchow_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 76,
+    "fields": {
+      "category": 6,
+      "name": "Chicken Sweet Corn Soup",
+      "slug": "chicken-sweet-corn-soup",
+      "description": "Chicken Sweet Corn Soup – A comforting blend of tender chicken, sweet corn, and flavorful seasonings simmered into a deliciously warm soup.",
+      "price": "340.00",
+      "price_half": "204.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Sweet_Corn_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 77,
+    "fields": {
+      "category": 6,
+      "name": "Cream of Chicken Soup",
+      "slug": "cream-of-chicken-soup",
+      "description": "Cream of Chicken Soup – A rich and creamy soup made with tender chicken, fresh herbs, and smooth flavors for a comforting dining experience.",
+      "price": "380.00",
+      "price_half": "228.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Cream_of_Chicken_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 78,
+    "fields": {
+      "category": 6,
+      "name": "Mutton Bone Soup",
+      "slug": "mutton-bone-soup",
+      "description": "Mutton Bone Soup – A nourishing soup prepared with tender mutton bones, aromatic spices, and rich flavors for a hearty and comforting taste.",
+      "price": "450.00",
+      "price_half": "270.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Bone_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 79,
+    "fields": {
+      "category": 6,
+      "name": "Mutton Soup",
+      "slug": "mutton-soup",
+      "description": "Mutton Soup – A flavorful and comforting soup made with tender mutton pieces, aromatic spices, and herbs for a rich traditional taste.",
+      "price": "430.00",
+      "price_half": "258.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 80,
+    "fields": {
+      "category": 6,
+      "name": "Prawns Soup",
+      "slug": "prawns-soup",
+      "description": "Prawns Soup – A delicious seafood soup made with juicy prawns, aromatic spices, and fresh herbs for a warm and flavorful experience.",
+      "price": "470.00",
+      "price_half": "282.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Prawns_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 81,
+    "fields": {
+      "category": 6,
+      "name": "Crab Soup",
+      "slug": "crab-soup",
+      "description": "Crab Soup – A flavorful seafood soup prepared with fresh crab, aromatic spices, and herbs for a rich and comforting taste.",
+      "price": "490.00",
+      "price_half": "294.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Crab_Soup.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 82,
+    "fields": {
+      "category": 7,
+      "name": "Idly",
+      "slug": "idly",
+      "description": "Idly – Soft and fluffy steamed rice cakes served with flavorful chutney and sambar for a classic South Indian breakfast experience.",
+      "price": "40.00",
+      "price_half": "24.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Idly.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 83,
+    "fields": {
+      "category": 7,
+      "name": "Bonda",
+      "slug": "bonda",
+      "description": "Bonda – Crispy golden potato-filled fritters made with seasoned batter and served with chutney for a delicious South Indian snack.",
+      "price": "50.00",
+      "price_half": "30.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Bonda.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 84,
+    "fields": {
+      "category": 7,
+      "name": "Vada",
+      "slug": "vada",
+      "description": "Vada – Crispy and golden South Indian lentil fritters with a soft center, served with delicious chutney and sambar.",
+      "price": "60.00",
+      "price_half": "36.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Vada.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 85,
+    "fields": {
+      "category": 7,
+      "name": "Upma",
+      "slug": "upma",
+      "description": "Upma – A comforting South Indian breakfast made with roasted semolina, fresh vegetables, and aromatic spices for a flavorful and wholesome taste.",
+      "price": "35.00",
+      "price_half": "21.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Upma.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 86,
+    "fields": {
+      "category": 7,
+      "name": "Dosa",
+      "slug": "dosa",
+      "description": "Dosa – A thin and crispy South Indian crepe made from fermented rice and lentil batter, served with chutney and sambar.",
+      "price": "60.00",
+      "price_half": "36.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Dosa.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 87,
+    "fields": {
+      "category": 7,
+      "name": "Poori",
+      "slug": "poori",
+      "description": "Poori – Fluffy and golden deep-fried Indian bread made from wheat flour, served hot with flavorful curries or potato masala.",
+      "price": "65.00",
+      "price_half": "39.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Poori.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 88,
+    "fields": {
+      "category": 7,
+      "name": "Chapati",
+      "slug": "chapati",
+      "description": "Chapati – Soft and wholesome Indian flatbread made from whole wheat flour, perfectly cooked to pair with delicious curries and gravies.",
+      "price": "45.00",
+      "price_half": "27.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Chapati.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 89,
+    "fields": {
+      "category": 7,
+      "name": "Paratha",
+      "slug": "paratha",
+      "description": "Paratha – A flaky and delicious Indian flatbread made with layered wheat dough, cooked to perfection and served with flavorful accompaniments.",
+      "price": "50.00",
+      "price_half": "30.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Paratha.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 90,
+    "fields": {
+      "category": 7,
+      "name": "Uthappam",
+      "slug": "uthappam",
+      "description": "Uthappam – A soft and fluffy South Indian pancake topped with fresh vegetables and cooked with aromatic flavors, served with chutney and sambar.",
+      "price": "40.00",
+      "price_half": "24.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Uthappam.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 91,
+    "fields": {
+      "category": 8,
+      "name": "Chicken Curry",
+      "slug": "chicken-curry",
+      "description": "Chicken Curry – Tender chicken cooked in a rich, aromatic gravy infused with traditional spices for a flavorful and comforting meal.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 92,
+    "fields": {
+      "category": 8,
+      "name": "Mutton Curry",
+      "slug": "mutton-curry",
+      "description": "Mutton Curry – Tender mutton slow-cooked in a rich, aromatic gravy with traditional spices for a hearty and flavorful experience.",
+      "price": "450.00",
+      "price_half": "270.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 93,
+    "fields": {
+      "category": 8,
+      "name": "Prawns Curry",
+      "slug": "prawns-curry",
+      "description": "Prawns Curry – Juicy prawns cooked in a rich and aromatic gravy with traditional spices for a delicious seafood delicacy.",
+      "price": "400.00",
+      "price_half": "240.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Prawns_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 94,
+    "fields": {
+      "category": 8,
+      "name": "Fish Curry",
+      "slug": "fish-curry",
+      "description": "Fish Curry – Fresh fish cooked in a flavorful gravy with aromatic spices and herbs for a delicious traditional seafood experience.",
+      "price": "430.00",
+      "price_half": "258.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Fish_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 95,
+    "fields": {
+      "category": 8,
+      "name": "Egg Curry",
+      "slug": "egg-curry",
+      "description": "Egg Curry – Boiled eggs simmered in a rich and aromatic gravy made with traditional spices for a flavorful and comforting meal.",
+      "price": "220.00",
+      "price_half": "132.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Egg_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 96,
+    "fields": {
+      "category": 8,
+      "name": "Crab Curry",
+      "slug": "crab-curry",
+      "description": "Crab Curry – Fresh crab cooked in a rich, aromatic gravy with traditional spices and herbs for a delicious coastal seafood delight.",
+      "price": "480.00",
+      "price_half": "288.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Crab_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 97,
+    "fields": {
+      "category": 8,
+      "name": "Fish Pulusu",
+      "slug": "fish-pulusu",
+      "description": "Fish Pulusu – A traditional South Indian fish curry made with fresh fish, tangy tamarind, and aromatic spices for a deliciously flavorful taste.",
+      "price": "380.00",
+      "price_half": "228.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Fish_Pulusu.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 98,
+    "fields": {
+      "category": 8,
+      "name": "Paneer Curry",
+      "slug": "paneer-curry",
+      "description": "Paneer Curry – Soft paneer cubes cooked in a rich and aromatic gravy with traditional spices for a creamy and flavorful vegetarian delight.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Panner_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 99,
+    "fields": {
+      "category": 8,
+      "name": "Mushroom Curry",
+      "slug": "mushroom-curry",
+      "description": "Mushroom Curry – Fresh mushrooms cooked in a rich and aromatic gravy with traditional spices for a delicious and flavorful vegetarian dish.",
+      "price": "280.00",
+      "price_half": "168.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mushroom_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 100,
+    "fields": {
+      "category": 8,
+      "name": "Aloo Curry",
+      "slug": "aloo-curry",
+      "description": "Aloo Curry – Soft potato pieces cooked in a flavorful aromatic gravy with traditional spices for a comforting and delicious vegetarian meal.",
+      "price": "200.00",
+      "price_half": "120.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Aloo_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 101,
+    "fields": {
+      "category": 8,
+      "name": "Chole Curry",
+      "slug": "chole-curry",
+      "description": "Chole Curry – Tender chickpeas cooked in a rich and aromatic gravy with traditional Indian spices for a flavorful and satisfying vegetarian delight.",
+      "price": "270.00",
+      "price_half": "162.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chole_Curry.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 102,
+    "fields": {
+      "category": 8,
+      "name": "Butter Chicken",
+      "slug": "butter-chicken",
+      "description": "Butter Chicken – Tender chicken cooked in a rich, creamy tomato-based gravy with aromatic spices and a buttery finish for a classic Indian delight.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Butter_Chicken.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 103,
+    "fields": {
+      "category": 8,
+      "name": "Paneer Butter Masala",
+      "slug": "paneer-butter-masala",
+      "description": "Paneer Butter Masala – Soft paneer cubes cooked in a rich, creamy tomato-based gravy with aromatic spices and a buttery flavor.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Panner_Butter_Masala.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 104,
+    "fields": {
+      "category": 10,
+      "name": "Hyderabadi Chicken Biryani",
+      "slug": "hyderabadi-chicken-biryani",
+      "description": "Hyderabadi Chicken Biryani – A royal blend of fragrant basmati rice, tender chicken, and authentic Hyderabadi spices slow-cooked to perfection for a rich and flavorful experience.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Hyderabadi_Chicken_Briyani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 105,
+    "fields": {
+      "category": 10,
+      "name": "Chicken Fry Piece Biryani",
+      "slug": "chicken-fry-piece-biryani",
+      "description": "Chicken Fry Piece Biryani – A delicious combination of aromatic basmati rice and crispy fried chicken pieces cooked with rich spices for a flavorful biryani experience.",
+      "price": "380.00",
+      "price_half": "228.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Fry_Piece_Briyani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 106,
+    "fields": {
+      "category": 10,
+      "name": "Chicken Dum Biryani",
+      "slug": "chicken-dum-biryani",
+      "description": "Chicken Dum Biryani – Aromatic basmati rice and tender chicken slow-cooked in traditional dum style with rich spices for an authentic and flavorful taste.",
+      "price": "280.00",
+      "price_half": "168.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Dum_Briyani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 107,
+    "fields": {
+      "category": 10,
+      "name": "Mutton Dum Biryani",
+      "slug": "mutton-dum-biryani",
+      "description": "Mutton Dum Biryani – A royal biryani made with tender mutton pieces and fragrant basmati rice slow-cooked with aromatic spices for a rich and authentic flavor.",
+      "price": "450.00",
+      "price_half": "270.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Dum_Biryani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 108,
+    "fields": {
+      "category": 10,
+      "name": "Mutton Keema Biryani",
+      "slug": "mutton-keema-biryani",
+      "description": "Mutton Keema Biryani – A flavorful biryani made with aromatic basmati rice and spiced minced mutton slow-cooked with traditional spices for a rich taste.",
+      "price": "470.00",
+      "price_half": "282.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Keema_Briyani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 109,
+    "fields": {
+      "category": 10,
+      "name": "Fish Biryani",
+      "slug": "fish-biryani",
+      "description": "Fish Biryani – A delicious blend of fragrant basmati rice and tender fish pieces cooked with aromatic spices for a flavorful seafood biryani experience.",
+      "price": "320.00",
+      "price_half": "192.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Fish_Briyani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 110,
+    "fields": {
+      "category": 10,
+      "name": "Prawns Biryani",
+      "slug": "prawns-biryani",
+      "description": "Prawns Biryani – A flavorful seafood delicacy made with juicy prawns and fragrant basmati rice infused with aromatic spices for a rich coastal taste.",
+      "price": "420.00",
+      "price_half": "252.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Prawns_Briyani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 111,
+    "fields": {
+      "category": 10,
+      "name": "Crab Biryani",
+      "slug": "crab-biryani",
+      "description": "Crab Biryani – A delicious seafood biryani made with succulent crab meat and aromatic basmati rice cooked with rich spices for a unique coastal flavor.",
+      "price": "440.00",
+      "price_half": "264.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Crab_Biryani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 112,
+    "fields": {
+      "category": 10,
+      "name": "Mixed Non-Veg Biryani",
+      "slug": "mixed-non-veg-biryani",
+      "description": "Mixed Non-Veg Biryani – A royal biryani made with a delicious mix of chicken, mutton, and seafood, layered with fragrant basmati rice and aromatic spices.",
+      "price": "550.00",
+      "price_half": "330.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mixed_Non-Veg_Biryani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 113,
+    "fields": {
+      "category": 10,
+      "name": "Veg Biryani",
+      "slug": "veg-biryani",
+      "description": "Veg Biryani – Aromatic basmati rice cooked with fresh vegetables and traditional spices for a flavorful and wholesome vegetarian delight.",
+      "price": "300.00",
+      "price_half": "180.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Veg_biryani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 114,
+    "fields": {
+      "category": 10,
+      "name": "Paneer Biryani",
+      "slug": "paneer-biryani",
+      "description": "Paneer Biryani – Fragrant basmati rice layered with soft paneer cubes and aromatic spices, slow-cooked to perfection for a delicious vegetarian treat.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Panner_Biryani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 115,
+    "fields": {
+      "category": 10,
+      "name": "Mushroom Biryani",
+      "slug": "mushroom-biryani",
+      "description": "Mushroom Biryani – Aromatic basmati rice cooked with fresh mushrooms and traditional spices for a flavorful and wholesome vegetarian delight.",
+      "price": "320.00",
+      "price_half": "192.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mushroom_biryani.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 116,
+    "fields": {
+      "category": 11,
+      "name": "Chicken Pulav",
+      "slug": "chicken-pulav",
+      "description": "Chicken Pulav – Aromatic basmati rice cooked with tender chicken pieces and flavorful spices for a delicious and comforting meal.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 117,
+    "fields": {
+      "category": 11,
+      "name": "Chicken Fry Pulav",
+      "slug": "chicken-fry-pulav",
+      "description": "Chicken Fry Pulav – A flavorful rice dish made with aromatic spices, fragrant basmati rice, and crispy fried chicken pieces for a delicious non-veg delight.",
+      "price": "380.00",
+      "price_half": "228.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/chicken_fry_pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 118,
+    "fields": {
+      "category": 11,
+      "name": "Mutton Pulav",
+      "slug": "mutton-pulav",
+      "description": "Mutton Pulav – Fragrant basmati rice cooked with tender mutton pieces and aromatic spices for a rich and flavorful dining experience.",
+      "price": "480.00",
+      "price_half": "288.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 119,
+    "fields": {
+      "category": 11,
+      "name": "Prawns Pulav",
+      "slug": "prawns-pulav",
+      "description": "Prawns Pulav – Fragrant basmati rice cooked with juicy prawns and aromatic spices for a delicious and flavorful seafood delight.",
+      "price": "400.00",
+      "price_half": "240.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Prawns_pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 120,
+    "fields": {
+      "category": 11,
+      "name": "Fish Pulav",
+      "slug": "fish-pulav",
+      "description": "Fish Pulav – Aromatic basmati rice cooked with tender fish pieces and flavorful spices for a delicious and satisfying seafood meal.",
+      "price": "380.00",
+      "price_half": "228.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Fish_Pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 121,
+    "fields": {
+      "category": 11,
+      "name": "Egg Pulav",
+      "slug": "egg-pulav",
+      "description": "Egg Pulav – Fragrant basmati rice cooked with boiled eggs and aromatic spices for a simple yet flavorful meal.",
+      "price": "240.00",
+      "price_half": "144.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Egg_Pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 122,
+    "fields": {
+      "category": 11,
+      "name": "Mixed Non-Veg Pulav",
+      "slug": "Mixed-Non-Veg-Pulav",
+      "description": "Mixed Non-Veg Pulav – A flavorful rice dish loaded with chicken, mutton, and seafood cooked with aromatic spices for a rich and satisfying non-vegetarian feast.",
+      "price": "550.00",
+      "price_half": "330.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mixed_Non-Veg_Pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 123,
+    "fields": {
+      "category": 11,
+      "name": "Veg Pulav",
+      "slug": "veg-pulav",
+      "description": "Veg Pulav – Aromatic basmati rice cooked with fresh vegetables and flavorful spices for a light, wholesome, and delicious meal.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Veg_Pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 124,
+    "fields": {
+      "category": 11,
+      "name": "Paneer Pulav",
+      "slug": "paneer-pulav",
+      "description": "Paneer Pulav – Fragrant basmati rice cooked with soft paneer cubes and aromatic spices for a rich and flavorful vegetarian delight.",
+      "price": "320.00",
+      "price_half": "192.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Paneer_Pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 125,
+    "fields": {
+      "category": 11,
+      "name": "Mushroom Pulav",
+      "slug": "mushroom-pulav",
+      "description": "Mushroom Pulav – Fragrant basmati rice cooked with fresh mushrooms and aromatic spices for a delicious and wholesome vegetarian meal.",
+      "price": "540.00",
+      "price_half": "324.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mushroom_Pulav.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 126,
+    "fields": {
+      "category": 12,
+      "name": "Chicken Fried Rice",
+      "slug": "chicken-fried-rice",
+      "description": "Chicken Fried Rice – A delicious stir-fried rice dish loaded with tender chicken pieces, fresh vegetables, and aromatic seasonings for a flavorful and satisfying meal.",
+      "price": "150.00",
+      "price_half": "90.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/chicken_fried_rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 127,
+    "fields": {
+      "category": 12,
+      "name": "Egg Fried Rice",
+      "slug": "egg-fried-rice",
+      "description": "Egg Fried Rice – A flavorful stir-fried rice dish made with fluffy eggs, fresh vegetables, and aromatic seasonings for a delicious and satisfying meal.",
+      "price": "130.00",
+      "price_half": "78.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Egg_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 128,
+    "fields": {
+      "category": 12,
+      "name": "Schezwan Egg Fried Rice",
+      "slug": "schezwan-egg-fried-rice",
+      "description": "Schezwan Egg Fried Rice – A spicy and flavorful fried rice tossed with fluffy eggs, fresh vegetables, and authentic Schezwan sauce for a fiery kick.",
+      "price": "150.00",
+      "price_half": "90.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Schezwan_Egg_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 129,
+    "fields": {
+      "category": 12,
+      "name": "Schezwan Chicken Fried Rice",
+      "slug": "schezwan-chicken-fried-rice",
+      "description": "Schezwan Chicken Fried Rice – A spicy and flavorful fried rice tossed with tender chicken, fresh vegetables, and authentic Schezwan sauce for a fiery Indo-Chinese experience.",
+      "price": "180.00",
+      "price_half": "108.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Schezwan_chicken_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 130,
+    "fields": {
+      "category": 12,
+      "name": "Mutton Fried Rice",
+      "slug": "mutton-fried-rice",
+      "description": "Mutton Fried Rice – A flavorful stir-fried rice dish loaded with tender mutton pieces, fresh vegetables, and aromatic seasonings for a rich and satisfying taste.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mutton_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 131,
+    "fields": {
+      "category": 12,
+      "name": "Seafood Fried Rice",
+      "slug": "seafood-fried-rice",
+      "description": "Seafood Fried Rice – A flavorful stir-fried rice dish loaded with fresh seafood, vegetables, and aromatic seasonings for a delicious coastal delight.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Seafood_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 132,
+    "fields": {
+      "category": 12,
+      "name": "Prawns Fried Rice",
+      "slug": "prawns-fried-rice",
+      "description": "Prawns Fried Rice – A delicious stir-fried rice dish loaded with juicy prawns, fresh vegetables, and aromatic seasonings for a flavorful seafood delight.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Prawns_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 133,
+    "fields": {
+      "category": 12,
+      "name": "Mixed Non-Veg Fried Rice",
+      "slug": "mixed-non-veg-fried-rice",
+      "description": "Mixed Non-Veg Fried Rice – A delicious stir-fried rice dish loaded with chicken, mutton, prawns, and fresh vegetables, tossed with aromatic seasonings for a rich and satisfying feast.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mixed_Non-Veg_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 134,
+    "fields": {
+      "category": 12,
+      "name": "Veg Fried Rice",
+      "slug": "veg-fried-rice",
+      "description": "Veg Fried Rice – A flavorful blend of fragrant rice, fresh vegetables, and aromatic seasonings stir-fried to perfection for a delicious meal.",
+      "price": "90.00",
+      "price_half": "54.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Veg_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 135,
+    "fields": {
+      "category": 12,
+      "name": "Paneer Fried Rice",
+      "slug": "paneer-fried-rice",
+      "description": "Paneer Fried Rice – A flavorful blend of fragrant rice, soft paneer cubes, and fresh vegetables stir-fried with aromatic spices.",
+      "price": "140.00",
+      "price_half": "84.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/panner_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 136,
+    "fields": {
+      "category": 12,
+      "name": "Mushroom Fried Rice",
+      "slug": "mushroom-fried-rice",
+      "description": "Mushroom Fried Rice – A delicious stir-fried rice dish loaded with juicy mushrooms, fresh vegetables, and aromatic seasonings for a rich flavor.",
+      "price": "220.00",
+      "price_half": "132.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mushroom_Fried_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 137,
+    "fields": {
+      "category": 13,
+      "name": "Chicken Noodles",
+      "slug": "chicken-noodles",
+      "description": "Chicken Noodles – A flavorful stir-fried noodle dish loaded with tender chicken, fresh vegetables, and aromatic seasonings for a delicious meal.",
+      "price": "120.00",
+      "price_half": "72.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Noodles.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 138,
+    "fields": {
+      "category": 13,
+      "name": "Chicken Schezwan Noodles",
+      "slug": "chicken-schezwan-noodles",
+      "description": "Chicken Schezwan Noodles – A spicy and flavorful noodle dish tossed with tender chicken, fresh vegetables, and authentic Schezwan sauce for a fiery Indo-Chinese delight.",
+      "price": "150.00",
+      "price_half": "90.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chicken_Schezwan_Noodles.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 139,
+    "fields": {
+      "category": 13,
+      "name": "Egg Noodles",
+      "slug": "egg-noodles",
+      "description": "Egg Noodles – A delicious stir-fried noodle dish loaded with fluffy eggs, fresh vegetables, and aromatic seasonings for a satisfying meal.",
+      "price": "100.00",
+      "price_half": "60.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/egg_Noodles.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 140,
+    "fields": {
+      "category": 13,
+      "name": "Veg Noodles",
+      "slug": "veg-noodles",
+      "description": "Veg Noodles – A delicious blend of stir-fried noodles, fresh vegetables, and aromatic seasonings for a flavorful Indo-Chinese experience.",
+      "price": "90.00",
+      "price_half": "54.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Veg_Noodles.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 141,
+    "fields": {
+      "category": 13,
+      "name": "Veg Schezwan Noodles",
+      "slug": "veg-schezwan-noodles",
+      "description": "Veg Schezwan Noodles – A spicy and flavorful noodle dish tossed with fresh vegetables and authentic Schezwan sauce for a fiery Indo-Chinese delight.",
+      "price": "120.00",
+      "price_half": "72.00",
+      "has_half_option": true,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Schezwan_veg_Noodles.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 142,
+    "fields": {
+      "category": 14,
+      "name": "Plain Naan",
+      "slug": "plain-naan",
+      "description": "Plain Naan – A soft and fluffy traditional Indian flatbread baked to perfection in a tandoor, perfect with curries and gravies.",
+      "price": "25.00",
+      "price_half": "15.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Plain_Naan.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 143,
+    "fields": {
+      "category": 14,
+      "name": "Butter Naan",
+      "slug": "butter-naan",
+      "description": "Butter Naan – A soft and fluffy tandoor-baked Indian flatbread brushed with rich butter for a delicious and flavorful accompaniment to curries.",
+      "price": "35.00",
+      "price_half": "21.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Butter_Naan.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 144,
+    "fields": {
+      "category": 14,
+      "name": "Garlic Naan",
+      "slug": "garlic-naan",
+      "description": "Garlic Naan – A soft and fluffy tandoor-baked flatbread topped with fresh garlic and butter for a rich and aromatic flavor.",
+      "price": "45.00",
+      "price_half": "27.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Garlic_Naan.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 145,
+    "fields": {
+      "category": 14,
+      "name": "Plain Roti",
+      "slug": "plain-roti",
+      "description": "Plain Roti – A soft and wholesome whole wheat flatbread cooked to perfection, making it the perfect companion for curries and gravies.",
+      "price": "15.00",
+      "price_half": "9.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Plain_Roti.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 146,
+    "fields": {
+      "category": 14,
+      "name": "Butter Roti",
+      "slug": "butter-roti",
+      "description": "Butter Roti – A soft whole wheat flatbread brushed with rich butter, perfectly paired with flavorful curries and gravies.",
+      "price": "25.00",
+      "price_half": "15.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Butter_Roti.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 147,
+    "fields": {
+      "category": 14,
+      "name": "Tandoori Roti",
+      "slug": "tandoori-roti",
+      "description": "Tandoori Roti – A traditional whole wheat flatbread baked in a tandoor for a smoky flavor and perfect texture to enjoy with curries and kebabs.",
+      "price": "30.00",
+      "price_half": "18.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Tandoori_Roti.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 148,
+    "fields": {
+      "category": 14,
+      "name": "Rumali Roti",
+      "slug": "rumali-roti",
+      "description": "Rumali Roti – A soft, thin, and delicate Indian flatbread with a light texture, perfect for pairing with rich curries and kebabs.",
+      "price": "20.00",
+      "price_half": "12.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Rumali_Roti.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 149,
+    "fields": {
+      "category": 15,
+      "name": "White Rice",
+      "slug": "white-rice",
+      "description": "White Rice – Perfectly steamed and fluffy white rice, a simple and versatile accompaniment to curries, gravies, and traditional dishes.",
+      "price": "100.00",
+      "price_half": "60.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/White_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 150,
+    "fields": {
+      "category": 15,
+      "name": "Jeera Rice",
+      "slug": "jeera-rice",
+      "description": "Jeera Rice – Fragrant basmati rice tempered with aromatic cumin seeds and spices for a simple yet flavorful accompaniment to curries and gravies.",
+      "price": "150.00",
+      "price_half": "90.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Jeera_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 151,
+    "fields": {
+      "category": 15,
+      "name": "Bagara Rice",
+      "slug": "bagara-rice",
+      "description": "Bagara Rice – Aromatic basmati rice cooked with whole spices and traditional seasonings for a rich and flavorful Hyderabadi specialty.",
+      "price": "180.00",
+      "price_half": "108.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Bagara_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 152,
+    "fields": {
+      "category": 15,
+      "name": "Curd Rice",
+      "slug": "curd-rice",
+      "description": "Curd Rice – A comforting blend of soft rice and creamy curd tempered with aromatic spices for a refreshing and wholesome meal.",
+      "price": "90.00",
+      "price_half": "54.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Curd_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 153,
+    "fields": {
+      "category": 15,
+      "name": "Sambar Rice",
+      "slug": "sambar-rice",
+      "description": "Sambar Rice – A hearty and flavorful dish made with rice, lentils, fresh vegetables, and aromatic South Indian spices for a comforting meal.",
+      "price": "120.00",
+      "price_half": "72.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Sambar_Rice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 154,
+    "fields": {
+      "category": 15,
+      "name": "Veg Meals",
+      "slug": "veg-meals",
+      "description": "Veg Meals – A wholesome and satisfying platter featuring rice, curries, dal, vegetables, sambar, rasam, curd, and accompaniments for a complete traditional dining experience.",
+      "price": "200.00",
+      "price_half": "120.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Veg_Meals.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 155,
+    "fields": {
+      "category": 15,
+      "name": "Andhra Meals",
+      "slug": "andhra-meals",
+      "description": "Andhra Meals – A traditional Andhra-style feast featuring rice, dal, curries, sambar, rasam, pickles, curd, and authentic regional flavors for a complete meal experience.",
+      "price": "220.00",
+      "price_half": "132.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Andhra_Meals.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 156,
+    "fields": {
+      "category": 15,
+      "name": "Chicken Meals",
+      "slug": "chicken-meals",
+      "description": "Chicken Meals – A hearty meal featuring rice, flavorful chicken curry, dal, vegetables, and traditional accompaniments for a satisfying dining experience.",
+      "price": "250.00",
+      "price_half": "150.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Chicken_Meals.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 157,
+    "fields": {
+      "category": 15,
+      "name": "Fish Meals",
+      "slug": "fish-meals",
+      "description": "Fish Meals – A delicious meal featuring rice, flavorful fish curry, dal, vegetables, and traditional accompaniments for an authentic coastal dining experience.",
+      "price": "280.00",
+      "price_half": "168.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Fish_Meals.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 158,
+    "fields": {
+      "category": 15,
+      "name": "Mutton Meals",
+      "slug": "mutton-meals",
+      "description": "Mutton Meals – A hearty meal featuring rice, flavorful mutton curry, dal, vegetables, and traditional accompaniments for a rich and satisfying dining experience.",
+      "price": "350.00",
+      "price_half": "210.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Mutton_Meals.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 159,
+    "fields": {
+      "category": 15,
+      "name": "Prawns Meals",
+      "slug": "prawns-meals",
+      "description": "Prawns Meals – A delicious and satisfying meal featuring rice, flavorful prawns curry, dal, vegetables, and traditional accompaniments for an authentic coastal dining experience.",
+      "price": "330.00",
+      "price_half": "198.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/prawns_Meals.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 160,
+    "fields": {
+      "category": 15,
+      "name": "Special Thali",
+      "slug": "special-thali",
+      "description": "Special Thali – A grand platter featuring a variety of curries, rice, breads, desserts, and traditional accompaniments for a complete and memorable dining experience.",
+      "price": "450.00",
+      "price_half": "270.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": null,
+      "image": "menu_images/Special_Thali.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 161,
+    "fields": {
+      "category": 16,
+      "name": "Gulab Jamun",
+      "slug": "gulab-jamun",
+      "description": "Gulab Jamun – Soft and delicious milk-solid dumplings soaked in fragrant sugar syrup for a classic Indian dessert experience.",
+      "price": "150.00",
+      "price_half": "90.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Gulab_Jamun.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 162,
+    "fields": {
+      "category": 16,
+      "name": "Kala Jamun",
+      "slug": "kala-jamun",
+      "description": "Kala Jamun – Rich and soft deep-fried milk-solid dumplings with a caramelized exterior, soaked in aromatic sugar syrup for a delightful dessert experience.",
+      "price": "200.00",
+      "price_half": "120.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Kala_Jamun.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 163,
+    "fields": {
+      "category": 16,
+      "name": "Kheer",
+      "slug": "kheer",
+      "description": "Kheer – A rich and creamy traditional dessert made with milk, rice, and nuts, delicately flavored for a sweet and comforting treat.",
+      "price": "120.00",
+      "price_half": "72.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Kheer.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 164,
+    "fields": {
+      "category": 16,
+      "name": "Rasmalai",
+      "slug": "rasmalai",
+      "description": "Rasmalai – Soft and spongy cottage cheese dumplings soaked in rich, creamy milk flavored with cardamom and nuts for an irresistible dessert experience.",
+      "price": "180.00",
+      "price_half": "108.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Rasmalai.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 165,
+    "fields": {
+      "category": 16,
+      "name": "Double Ka Meetha",
+      "slug": "double-ka-meetha",
+      "description": "Double Ka Meetha – A traditional Hyderabadi dessert made with fried bread, rich milk, dry fruits, and aromatic flavors for a royal sweet experience.",
+      "price": "200.00",
+      "price_half": "120.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Double_Ka_Meetha.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 166,
+    "fields": {
+      "category": 16,
+      "name": "Qubani Ka Meetha",
+      "slug": "qubani-ka-meetha",
+      "description": "Qubani Ka Meetha – A classic Hyderabadi dessert made with succulent apricots, sweet syrup, and rich garnishes for a delightful royal treat.",
+      "price": "220.00",
+      "price_half": "132.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Qubani_Ka_Meetha.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 167,
+    "fields": {
+      "category": 16,
+      "name": "Badam Halwa",
+      "slug": "badam-halwa",
+      "description": "Badam Halwa – A rich and indulgent dessert made with premium almonds, ghee, and aromatic flavors for a melt-in-the-mouth experience.",
+      "price": "150.00",
+      "price_half": "90.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Badam_Halwa.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 168,
+    "fields": {
+      "category": 16,
+      "name": "Dry Fruit Halwa",
+      "slug": "dry-fruit-halwa",
+      "description": "Dry Fruit Halwa – A rich and nutritious dessert made with a blend of premium dry fruits, ghee, and aromatic flavors for a delightful sweet experience.",
+      "price": "110.00",
+      "price_half": "66.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Dry_Fruit_Halwa.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 169,
+    "fields": {
+      "category": 16,
+      "name": "Carrot Halwa",
+      "slug": "carrot-halwa",
+      "description": "Carrot Halwa – A rich and delicious dessert made with fresh carrots, milk, ghee, and nuts, slow-cooked to perfection for a delightful treat.",
+      "price": "80.00",
+      "price_half": "48.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Carrot_Halwa.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 170,
+    "fields": {
+      "category": 16,
+      "name": "Brownie with Ice Cream",
+      "slug": "brownie-with-ice-cream",
+      "description": "Brownie with Ice Cream – A warm, fudgy brownie served with creamy ice cream for the perfect blend of rich chocolate and refreshing sweetness.",
+      "price": "240.00",
+      "price_half": "144.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Brownie_with_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 171,
+    "fields": {
+      "category": 16,
+      "name": "Sizzling Brownie",
+      "slug": "sizzling-brownie",
+      "description": "Sizzling Brownie – A warm and fudgy brownie served on a sizzling platter with creamy ice cream and rich chocolate sauce for an indulgent dessert experience.",
+      "price": "280.00",
+      "price_half": "168.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Sizzling_Brownie.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 172,
+    "fields": {
+      "category": 16,
+      "name": "Fruit Custard",
+      "slug": "fruit-custard",
+      "description": "Fruit Custard – A creamy and refreshing dessert made with fresh seasonal fruits blended with rich custard for a delightful sweet treat.",
+      "price": "180.00",
+      "price_half": "108.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Fruit_Custard.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 173,
+    "fields": {
+      "category": 16,
+      "name": "Dry Fruit Delight",
+      "slug": "dry-fruit-delight",
+      "description": "Dry Fruit Delight – A rich and indulgent dessert loaded with premium dry fruits, nuts, and creamy flavors for a delightful sweet experience.",
+      "price": "210.00",
+      "price_half": "126.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Dry_Fruit_Delight.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 174,
+    "fields": {
+      "category": 16,
+      "name": "Apricot Delight",
+      "slug": "apricot-delight",
+      "description": "Apricot Delight – A luxurious dessert made with succulent apricots, creamy layers, and rich toppings for a delightful blend of sweetness and flavor.",
+      "price": "240.00",
+      "price_half": "144.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Apricot_Delight.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 175,
+    "fields": {
+      "category": 17,
+      "name": "Milk Cake",
+      "slug": "milk-cake",
+      "description": "Milk Cake – A rich and traditional Indian sweet made from slow-cooked milk and sugar, offering a soft texture and delicious caramelized flavor.",
+      "price": "80.00",
+      "price_half": "48.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Milk_Cake.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 176,
+    "fields": {
+      "category": 17,
+      "name": "Kalakand",
+      "slug": "kalakand",
+      "description": "Kalakand – A soft and creamy Indian sweet made with fresh milk and sugar, delicately flavored for a rich and melt-in-the-mouth experience.",
+      "price": "90.00",
+      "price_half": "54.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Kalakand.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 177,
+    "fields": {
+      "category": 17,
+      "name": "Badam Katli",
+      "slug": "badam-katli",
+      "description": "Badam Katli – A premium Indian sweet made with finely ground almonds and sugar, crafted into delicate, melt-in-the-mouth delicacies with a rich nutty flavor.",
+      "price": "70.00",
+      "price_half": "42.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Badam_Katli.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 178,
+    "fields": {
+      "category": 17,
+      "name": "Kaju Katli",
+      "slug": "kaju-katli",
+      "description": "Kaju Katli – A premium Indian sweet made with finely ground cashews and sugar, crafted into thin, melt-in-the-mouth delicacies.",
+      "price": "120.00",
+      "price_half": "72.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Kaju_Katli.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 179,
+    "fields": {
+      "category": 17,
+      "name": "Dry Fruit Laddu",
+      "slug": "dry-fruit-laddu",
+      "description": "Dry Fruit Laddu – A wholesome and delicious sweet made with premium dry fruits, nuts, and natural ingredients for a nutritious and energy-rich treat.",
+      "price": "150.00",
+      "price_half": "90.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Dry_Fruit_Laddu.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 180,
+    "fields": {
+      "category": 17,
+      "name": "Pistachio Barfi",
+      "slug": "pistachio-barfi",
+      "description": "Pistachio Barfi – A rich and flavorful Indian sweet made with premium pistachios, milk, and sugar for a delightful nutty taste and melt-in-the-mouth texture.",
+      "price": "180.00",
+      "price_half": "108.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Pistachio_Barfi.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 181,
+    "fields": {
+      "category": 17,
+      "name": "Jalebi",
+      "slug": "jalebi",
+      "description": "Jalebi – A crispy and golden spiral-shaped Indian sweet soaked in fragrant sugar syrup for a juicy, sweet, and delightful treat.",
+      "price": "60.00",
+      "price_half": "36.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Jalebi.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 182,
+    "fields": {
+      "category": 17,
+      "name": "Mysore Pak",
+      "slug": "mysore-pak",
+      "description": "Mysore Pak – A traditional South Indian sweet made with gram flour, ghee, and sugar, offering a rich, melt-in-the-mouth texture and delicious flavor.",
+      "price": "80.00",
+      "price_half": "48.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Mysore_Pak.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 183,
+    "fields": {
+      "category": 17,
+      "name": "Motichoor Laddu",
+      "slug": "motichoor-laddu",
+      "description": "Motichoor Laddu – A delightful Indian sweet made with tiny golden gram flour pearls, ghee, and sugar syrup, shaped into soft and flavorful laddus.",
+      "price": "70.00",
+      "price_half": "42.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Motichoor_Laddu.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 184,
+    "fields": {
+      "category": 17,
+      "name": "Bobbatlu (Puran Poli)",
+      "slug": "bobbatlu-puran-poli",
+      "description": "Bobbatlu (Puran Poli) – A traditional South Indian sweet flatbread stuffed with a delicious filling of jaggery and lentils, cooked to perfection with a rich and festive flavor.",
+      "price": "50.00",
+      "price_half": "30.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Bobbatlu_Puran_Poli.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 185,
+    "fields": {
+      "category": 17,
+      "name": "Pootharekulu",
+      "slug": "pootharekulu",
+      "description": "Pootharekulu – A traditional Andhra sweet made with delicate rice starch sheets layered with sugar and ghee, creating a thin, crispy, and melt-in-the-mouth delicacy.",
+      "price": "60.00",
+      "price_half": "36.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": null,
+      "image": "menu_images/Pootharekulu.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 186,
+    "fields": {
+      "category": 17,
+      "name": "Pineapple Kesari",
+      "slug": "pineapple-kesari",
+      "description": "Pineapple Kesari – A delicious South Indian dessert made with semolina, juicy pineapple pieces, ghee, and aromatic flavors for a rich and delightful sweet treat.",
+      "price": "160.00",
+      "price_half": "80.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Pineapple_Kesari.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 187,
+    "fields": {
+      "category": 18,
+      "name": "Orange Juice",
+      "slug": "orange-juice",
+      "description": "Orange Juice – A refreshing and naturally sweet beverage made with fresh oranges, packed with citrus flavor and a burst of freshness.",
+      "price": "90.00",
+      "price_half": "44.98",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Orange_Juice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 188,
+    "fields": {
+      "category": 18,
+      "name": "Mango Juice",
+      "slug": "mango-juice",
+      "description": "Mango Juice – A refreshing and delicious drink made with ripe mangoes, offering a rich tropical flavor and natural sweetness.",
+      "price": "100.00",
+      "price_half": "50.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mango_Juice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 189,
+    "fields": {
+      "category": 18,
+      "name": "Watermelon Juice",
+      "slug": "watermelon-juice",
+      "description": "Watermelon Juice – A refreshing and hydrating beverage made with fresh watermelon, offering a naturally sweet and cooling taste.",
+      "price": "70.00",
+      "price_half": "34.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Watermelon_Juice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 190,
+    "fields": {
+      "category": 18,
+      "name": "Pineapple Juice",
+      "slug": "pineapple-juice",
+      "description": "Pineapple Juice – A refreshing tropical beverage made with fresh pineapples, delivering a sweet, tangy flavor and a burst of natural freshness.",
+      "price": "120.00",
+      "price_half": "59.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Pineapple_Juice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 191,
+    "fields": {
+      "category": 18,
+      "name": "Kiwi Juice",
+      "slug": "kiwi-juice",
+      "description": "Kiwi Juice – A refreshing and healthy beverage made with fresh kiwi fruit, offering a tangy-sweet flavor and a vibrant tropical freshness.",
+      "price": "130.00",
+      "price_half": "69.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Kiwi_Juice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 192,
+    "fields": {
+      "category": 18,
+      "name": "Strawberry Juice",
+      "slug": "strawberry-juice",
+      "description": "Strawberry Juice – A refreshing and flavorful beverage made with fresh strawberries, offering a sweet, fruity taste and a delightful burst of freshness.",
+      "price": "150.00",
+      "price_half": "69.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Strawberry_Juice.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 193,
+    "fields": {
+      "category": 18,
+      "name": "Chocolate Milkshake",
+      "slug": "chocolate-milkshake",
+      "description": "Chocolate Milkshake – A rich and creamy milkshake blended with smooth chocolate flavor for a deliciously indulgent and refreshing treat.",
+      "price": "130.00",
+      "price_half": "65.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chocolate_Milkshake.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 194,
+    "fields": {
+      "category": 18,
+      "name": "Strawberry Milkshake",
+      "slug": "strawberry-milkshake",
+      "description": "Strawberry Milkshake – A creamy and refreshing milkshake blended with fresh strawberries for a sweet, fruity, and delightful treat.",
+      "price": "120.00",
+      "price_half": "59.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Strawberry_Milkshake.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 195,
+    "fields": {
+      "category": 18,
+      "name": "Butterscotch Milkshake",
+      "slug": "butterscotch-milkshake",
+      "description": "Butterscotch Milkshake – A rich and creamy milkshake blended with delicious butterscotch flavor and crunchy caramel notes for a delightful sweet treat.",
+      "price": "150.00",
+      "price_half": "75.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Butterscotch_Milkshake.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 196,
+    "fields": {
+      "category": 18,
+      "name": "Oreo Milkshake",
+      "slug": "oreo-milkshake",
+      "description": "Oreo Milkshake – A creamy and indulgent milkshake blended with crunchy Oreo cookies and rich flavors for a delicious dessert drink.",
+      "price": "120.00",
+      "price_half": "60.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Oreo_Milkshake.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 197,
+    "fields": {
+      "category": 18,
+      "name": "Dry Fruit Milkshake",
+      "slug": "dry-fruit-milkshake",
+      "description": "Dry Fruit Milkshake – A rich and creamy milkshake blended with premium dry fruits and nuts for a nutritious, flavorful, and refreshing treat.",
+      "price": "180.00",
+      "price_half": "89.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Dry_Fruit_Milkshake.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 198,
+    "fields": {
+      "category": 18,
+      "name": "Rose Milkshake",
+      "slug": "rose-milkshake",
+      "description": "Rose Milkshake – A creamy and refreshing milkshake blended with aromatic rose flavor for a sweet, floral, and delightful beverage experience.",
+      "price": "120.00",
+      "price_half": "60.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Rose_Milkshake.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 199,
+    "fields": {
+      "category": 18,
+      "name": "Sweet Lassi",
+      "slug": "sweet-lassi",
+      "description": "Sweet Lassi – A refreshing traditional Indian yogurt-based drink blended with sugar and aromatic flavors for a creamy and delightful taste.",
+      "price": "90.00",
+      "price_half": "45.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Sweet_Lassi.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 200,
+    "fields": {
+      "category": 18,
+      "name": "Dry Fruit Lassi",
+      "slug": "dry-fruit-lassi",
+      "description": "Dry Fruit Lassi – A rich and creamy yogurt-based drink blended with premium dry fruits and nuts for a delicious and refreshing treat.",
+      "price": "150.00",
+      "price_half": "74.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Dry_Fruit_Lassi.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 201,
+    "fields": {
+      "category": 18,
+      "name": "Badam Milk",
+      "slug": "badam-milk",
+      "description": "Badam Milk – A rich and creamy milk beverage infused with ground almonds, saffron, and aromatic spices for a delicious and nourishing drink.",
+      "price": "90.00",
+      "price_half": "45.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Badam_Milk.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 202,
+    "fields": {
+      "category": 18,
+      "name": "Rose Milk",
+      "slug": "rose-milk",
+      "description": "Rose Milk – A refreshing and creamy milk beverage infused with sweet rose flavor for a delightful, fragrant, and cooling treat.",
+      "price": "80.00",
+      "price_half": "39.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Rose_Milk.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 203,
+    "fields": {
+      "category": 18,
+      "name": "Virgin Mojito",
+      "slug": "virgin-mojito",
+      "description": "Virgin Mojito – A refreshing non-alcoholic beverage made with fresh mint, lime, and sparkling flavors for a cool and revitalizing drink.",
+      "price": "120.00",
+      "price_half": "59.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Virgin_Mojito.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 204,
+    "fields": {
+      "category": 18,
+      "name": "Blue Lagoon",
+      "slug": "blue-lagoon",
+      "description": "Blue Lagoon – A refreshing and vibrant mocktail with a sweet citrus flavor, served chilled for a cool and delightful beverage experience.",
+      "price": "120.00",
+      "price_half": "60.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Blue_Lagoon.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 205,
+    "fields": {
+      "category": 18,
+      "name": "Green Apple Mojito",
+      "slug": "green-apple-mojito",
+      "description": "Green Apple Mojito – A refreshing mocktail blended with crisp green apple flavor, fresh mint, and lime for a sweet, tangy, and revitalizing drink.",
+      "price": "130.00",
+      "price_half": "64.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Green_Apple_Mojito.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 206,
+    "fields": {
+      "category": 18,
+      "name": "Fruit Punch",
+      "slug": "fruit-punch",
+      "description": "Fruit Punch – A refreshing blend of fresh fruit juices and flavors, creating a sweet, colorful, and deliciously fruity beverage.",
+      "price": "140.00",
+      "price_half": "69.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Fruit_Punch.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 207,
+    "fields": {
+      "category": 18,
+      "name": "Cranberry Cooler",
+      "slug": "cranberry-cooler",
+      "description": "Cranberry Cooler – A refreshing mocktail made with tangy cranberry flavors, chilled ingredients, and a perfect balance of sweetness for a revitalizing drink.",
+      "price": "180.00",
+      "price_half": "89.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Cranberry_Cooler.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 208,
+    "fields": {
+      "category": 18,
+      "name": "Tea",
+      "slug": "tea",
+      "description": "Tea – A comforting and aromatic beverage made with freshly brewed tea leaves, milk, and spices for a refreshing and flavorful experience.",
+      "price": "40.00",
+      "price_half": "19.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Tea.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 209,
+    "fields": {
+      "category": 18,
+      "name": "Green Tea",
+      "slug": "green-tea",
+      "description": "Green Tea – A refreshing and healthy beverage made with premium green tea leaves, offering a light flavor and soothing experience.",
+      "price": "60.00",
+      "price_half": "29.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Green_Tea.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 210,
+    "fields": {
+      "category": 18,
+      "name": "Coffee",
+      "slug": "coffee",
+      "description": "Coffee – A freshly brewed aromatic beverage made with rich coffee beans and a smooth flavor for a refreshing and energizing experience.",
+      "price": "50.00",
+      "price_half": "24.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Coffee.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 211,
+    "fields": {
+      "category": 18,
+      "name": "Filter Coffee",
+      "slug": "filter-coffee",
+      "description": "Filter Coffee – A traditional South Indian coffee made with freshly brewed coffee decoction and creamy milk, delivering a rich aroma and authentic taste.",
+      "price": "60.00",
+      "price_half": "29.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Filter_Coffee.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 212,
+    "fields": {
+      "category": 18,
+      "name": "Cappuccino",
+      "slug": "cappuccino",
+      "description": "Cappuccino – A classic coffee beverage made with rich espresso, steamed milk, and a creamy layer of frothy milk foam for a smooth and delightful experience.",
+      "price": "150.00",
+      "price_half": "79.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Cappuccino.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 213,
+    "fields": {
+      "category": 18,
+      "name": "Cold Coffee",
+      "slug": "cold-coffee",
+      "description": "Cold Coffee – A refreshing chilled coffee blended with creamy milk and rich coffee flavor, perfect for a cool and energizing treat.",
+      "price": "190.00",
+      "price_half": "95.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Cold_Coffee.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 214,
+    "fields": {
+      "category": 18,
+      "name": "Coca-Cola",
+      "slug": "coca-cola",
+      "description": "Coca-Cola – A classic carbonated soft drink with a refreshing cola flavor, served chilled for a fizzy and satisfying beverage experience.",
+      "price": "30.00",
+      "price_half": "14.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Coca-Cola.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 215,
+    "fields": {
+      "category": 18,
+      "name": "Pepsi",
+      "slug": "pepsi",
+      "description": "Pepsi – A refreshing carbonated soft drink with a bold cola flavor, served chilled for a fizzy and enjoyable beverage experience.",
+      "price": "30.00",
+      "price_half": "14.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Pepsi.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 216,
+    "fields": {
+      "category": 18,
+      "name": "Sprite",
+      "slug": "sprite",
+      "description": "Sprite – A refreshing lemon-lime carbonated soft drink with a crisp, citrusy flavor, served chilled for a cool and fizzy experience.",
+      "price": "30.00",
+      "price_half": "15.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Sprite.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 217,
+    "fields": {
+      "category": 18,
+      "name": "Thums Up",
+      "slug": "thums-up",
+      "description": "Thums Up – A bold and refreshing cola-flavored soft drink with a strong fizz and signature taste, served chilled for an energizing beverage experience.",
+      "price": "30.00",
+      "price_half": "15.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Thums_Up.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 218,
+    "fields": {
+      "category": 18,
+      "name": "Mineral Water",
+      "slug": "mineral-water",
+      "description": "Mineral Water – Pure and refreshing bottled water, providing essential hydration and a clean, crisp taste for a healthy lifestyle.",
+      "price": "25.00",
+      "price_half": "12.98",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mineral_Water.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 219,
+    "fields": {
+      "category": 19,
+      "name": "Chocolate Ice Cream",
+      "slug": "chocolate-ice-cream",
+      "description": "Chocolate Ice Cream – A rich and creamy dessert made with smooth chocolate flavor, offering a deliciously indulgent and refreshing sweet treat.",
+      "price": "120.00",
+      "price_half": "59.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Chocolate_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 220,
+    "fields": {
+      "category": 19,
+      "name": "Butterscotch Ice Cream",
+      "slug": "butterscotch-ice-cream",
+      "description": "Butterscotch Ice Cream – A creamy and delicious ice cream infused with rich butterscotch flavor and crunchy caramel bits for a delightful dessert experience.",
+      "price": "140.00",
+      "price_half": "70.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Butterscotch_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 221,
+    "fields": {
+      "category": 19,
+      "name": "Strawberry Ice Cream",
+      "slug": "strawberry-ice-cream",
+      "description": "Strawberry Ice Cream – A creamy and refreshing dessert made with fresh strawberry flavor, offering a sweet and fruity taste in every scoop.",
+      "price": "130.00",
+      "price_half": "65.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Strawberry_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 222,
+    "fields": {
+      "category": 19,
+      "name": "Cookie & Cream Ice Cream",
+      "slug": "cookie-cream-ice-cream",
+      "description": "Cookie & Cream Ice Cream – A creamy and delicious ice cream blended with crunchy cookie pieces for a perfect combination of rich flavor and delightful texture.",
+      "price": "180.00",
+      "price_half": "90.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Cookie__Cream_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 223,
+    "fields": {
+      "category": 19,
+      "name": "Black Currant Ice Cream",
+      "slug": "black-currant-ice-cream",
+      "description": "Black Currant Ice Cream – A creamy and refreshing ice cream infused with rich black currant flavor, offering a sweet and tangy taste in every scoop.",
+      "price": "160.00",
+      "price_half": "80.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Black_Currant_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 224,
+    "fields": {
+      "category": 19,
+      "name": "Sitaphal Ice Cream",
+      "slug": "sitaphal-ice-cream",
+      "description": "Sitaphal Ice Cream – A creamy and delightful ice cream made with fresh custard apple pulp, offering a unique fruity flavor and rich texture.",
+      "price": "190.00",
+      "price_half": "94.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Sitaphal_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 225,
+    "fields": {
+      "category": 19,
+      "name": "Brownie Sundae",
+      "slug": "brownie-sundae",
+      "description": "Brownie Sundae – A delicious dessert featuring a warm fudgy brownie topped with creamy ice cream, chocolate sauce, and delightful toppings for an indulgent treat.",
+      "price": "200.00",
+      "price_half": "100.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Brownie_Sundae.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 226,
+    "fields": {
+      "category": 19,
+      "name": "Dry Fruit Sundae",
+      "slug": "dry-fruit-sundae",
+      "description": "Dry Fruit Sundae – A rich and creamy dessert topped with premium dry fruits, nuts, and scoops of ice cream for a delightful and indulgent treat.",
+      "price": "220.00",
+      "price_half": "109.98",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Dry_Fruit_Sundae.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 227,
+    "fields": {
+      "category": 19,
+      "name": "Fruit Sundae",
+      "slug": "fruit-sundae",
+      "description": "Fruit Sundae – A refreshing dessert made with creamy ice cream, fresh seasonal fruits, and delicious toppings for a sweet and delightful treat.",
+      "price": "240.00",
+      "price_half": "220.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Fruit_Sundae.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 228,
+    "fields": {
+      "category": 19,
+      "name": "Kulfi Falooda",
+      "slug": "kulfi-falooda",
+      "description": "Kulfi Falooda – A royal dessert made with rich kulfi, silky falooda noodles, sweet basil seeds, and flavored milk, topped with nuts for a refreshing and indulgent treat.",
+      "price": "250.00",
+      "price_half": "124.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Kulfi_Falooda.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 229,
+    "fields": {
+      "category": 19,
+      "name": "Kesar Pista Ice Cream",
+      "slug": "kesar-pista-ice-cream",
+      "description": "Kesar Pista Ice Cream – A rich and creamy ice cream infused with saffron and premium pistachios, offering a luxurious flavor and a delightful nutty crunch.",
+      "price": "230.00",
+      "price_half": "114.99",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Kesar_Pista_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 230,
+    "fields": {
+      "category": 19,
+      "name": "Mixed Fruit Ice Cream",
+      "slug": "mixed-fruit-ice-cream",
+      "description": "Mixed Fruit Ice Cream – A creamy and refreshing ice cream blended with the goodness of mixed fruits, offering a delicious burst of fruity flavors in every scoop.",
+      "price": "240.00",
+      "price_half": "220.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mixed_Fruit_Ice_Cream.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 231,
+    "fields": {
+      "category": 20,
+      "name": "Ragi Muda",
+      "slug": "ragi-muda",
+      "description": "Ragi Muda – A traditional Andhra delicacy made with nutritious finger millet (ragi), served soft and wholesome, perfectly paired with spicy curries, chutneys, or fresh curd.",
+      "price": "160.00",
+      "price_half": "80.00",
+      "has_half_option": false,
+      "serves": "Serves 1",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Ragi_Muda.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 232,
+    "fields": {
+      "category": 20,
+      "name": "Desserts",
+      "slug": "desserts",
+      "description": "Desserts – Indulge in our irresistible selection of traditional Indian sweets, rich desserts, creamy ice creams, and delightful treats, crafted to end your meal on a sweet and memorable note.",
+      "price": "550.00",
+      "price_half": "224.99",
+      "has_half_option": false,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Desserts.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 233,
+    "fields": {
+      "category": 20,
+      "name": "Mojitos",
+      "slug": "mojitos",
+      "description": "Mojitos – Refresh yourself with our vibrant selection of chilled mojitos, crafted with fresh mint, citrus flavors, and sparkling goodness for the perfect cooling beverage.",
+      "price": "400.00",
+      "price_half": "199.99",
+      "has_half_option": false,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Mojitos.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 235,
+    "fields": {
+      "category": 20,
+      "name": "Cool Drinks",
+      "slug": "cool-drinks",
+      "description": "Cool Drinks – Quench your thirst with our refreshing selection of chilled soft drinks, sparkling beverages, and cool refreshments, perfect for complementing every meal.",
+      "price": "300.00",
+      "price_half": "149.99",
+      "has_half_option": false,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Cool_Drinks.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 236,
+    "fields": {
+      "category": 20,
+      "name": "Ice Creams",
+      "slug": "ice-creams",
+      "description": "Ice Creams – Delight in our creamy selection of premium ice creams, crafted with rich flavors and smooth textures for the perfect sweet and refreshing treat.",
+      "price": "500.00",
+      "price_half": "250.00",
+      "has_half_option": false,
+      "serves": "Serves 3-4",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Ice_Creams.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 237,
+    "fields": {
+      "category": 20,
+      "name": "Cake Pieces",
+      "slug": "cake-pieces",
+      "description": "Cake Pieces – Enjoy our delicious assortment of freshly baked cake slices, crafted with premium ingredients and rich flavors—perfect for a quick sweet treat or dessert.",
+      "price": "300.00",
+      "price_half": "150.00",
+      "has_half_option": false,
+      "serves": "Serves 1-2",
+      "serves_half": "Serves 1-2",
+      "image": "menu_images/Cake_Pieces.png",
+      "is_available": true
+    }
+  },
+  {
+    "model": "menu.siteasset",
+    "pk": 1,
+    "fields": {
+      "key": "hero_bg",
+      "image": "site_assets/Background_design-1.png",
+      "title": "Hero Background",
+      "updated_at": "2026-07-09T10:24:39.166Z"
+    }
+  },
+  {
+    "model": "menu.siteasset",
+    "pk": 2,
+    "fields": {
+      "key": "about_story",
+      "image": "site_assets/Godavari_vindu_story.png",
+      "title": "About Story Image",
+      "updated_at": "2026-07-09T10:24:39.195Z"
+    }
+  },
+  {
+    "model": "menu.siteasset",
+    "pk": 3,
+    "fields": {
+      "key": "chef_photo",
+      "image": "site_assets/chef.png",
+      "title": "Chef Photo",
+      "updated_at": "2026-07-09T10:24:39.211Z"
+    }
+  },
+  {
+    "model": "menu.siteasset",
+    "pk": 4,
+    "fields": {
+      "key": "chef_signature",
+      "image": "site_assets/Chef_Antonio.png",
+      "title": "Chef Signature",
+      "updated_at": "2026-07-09T10:24:39.294Z"
+    }
+  },
+  {
+    "model": "menu.siteasset",
+    "pk": 5,
+    "fields": {
+      "key": "reservation_bg",
+      "image": "site_assets/hero_bg.png",
+      "title": "Reservation Background",
+      "updated_at": "2026-07-09T10:24:39.311Z"
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 1,
+    "fields": {
+      "image": "gallery/gallery_1.png",
+      "alt": "Interior 1",
+      "span": "col-span-2 row-span-2",
+      "order": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 2,
+    "fields": {
+      "image": "gallery/dish_1.png",
+      "alt": "Signature Dish",
+      "span": "col-span-1 row-span-1",
+      "order": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 3,
+    "fields": {
+      "image": "gallery/hero_bg.png",
+      "alt": "Luxury Ambiance",
+      "span": "col-span-1 row-span-1",
+      "order": 3,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 4,
+    "fields": {
+      "image": "gallery/exterior_design.png",
+      "alt": "Exterior View",
+      "span": "col-span-1 row-span-1",
+      "order": 4,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 5,
+    "fields": {
+      "image": "gallery/interior_design.png",
+      "alt": "Interior View",
+      "span": "col-span-1 row-span-1",
+      "order": 5,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 6,
+    "fields": {
+      "image": "gallery/godavari_story.png",
+      "alt": "Story View",
+      "span": "col-span-1 row-span-2",
+      "order": 6,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 7,
+    "fields": {
+      "image": "gallery/menu_card.png",
+      "alt": "Menu View",
+      "span": "col-span-1 row-span-2",
+      "order": 7,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 9,
+    "fields": {
+      "image": "gallery/beautiful_paint.png",
+      "alt": "Paint View",
+      "span": "col-span-1 row-span-1",
+      "order": 9,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 10,
+    "fields": {
+      "image": "gallery/background_design.png",
+      "alt": "Background View",
+      "span": "col-span-1 row-span-1",
+      "order": 10,
+      "is_active": true
+    }
+  },
+  {
+    "model": "menu.galleryimage",
+    "pk": 11,
+    "fields": {
+      "image": "gallery/Dinning_design.png",
+      "alt": "Dinning View",
+      "span": "col-span-1 row-span-1",
+      "order": 11,
+      "is_active": true
+    }
+  },
+  {
+    "model": "reviews.testimonial",
+    "pk": 1,
+    "fields": {
+      "name": "Arjun Reddy",
+      "role": "Food Critic",
+      "text": "The Mutton Pulav at Godavari Vindu is the finest I've had outside my grandmother's kitchen. The spices are perfectly balanced and the meat just falls off the bone.",
+      "rating": 5
+    }
+  },
+  {
+    "model": "reviews.testimonial",
+    "pk": 2,
+    "fields": {
+      "name": "Priya Sharma",
+      "role": "Regular Guest",
+      "text": "Every visit feels like a celebration. The ambiance is stunning and the Prawns Pulav is absolutely divine. This is our family's go-to restaurant for special occasions.",
+      "rating": 5
+    }
+  },
+  {
+    "model": "reviews.testimonial",
+    "pk": 3,
+    "fields": {
+      "name": "Karthik Nair",
+      "role": "Food Blogger",
+      "text": "Godavari Vindu captures the true essence of Andhra cuisine with a luxurious touch. The Chicken Tikka melts in your mouth and the service is impeccable.",
+      "rating": 5
+    }
+  }
+]

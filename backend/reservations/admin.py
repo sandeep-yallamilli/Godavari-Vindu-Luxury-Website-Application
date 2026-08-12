@@ -1,0 +1,17 @@
+from django.contrib import admin
+from .models import Reservation, Order, OrderItem
+
+class OrderItemInline(admin.TabularInline):
+    model = OrderItem
+    extra = 0
+
+@admin.register(Reservation)
+class ReservationAdmin(admin.ModelAdmin):
+    list_display = ['name', 'email', 'date', 'time', 'guests']
+    list_filter = ['date']
+
+@admin.register(Order)
+class OrderAdmin(admin.ModelAdmin):
+    list_display = ['id', 'full_name', 'email', 'total_price', 'status', 'created_at']
+    list_filter = ['status', 'created_at']
+    inlines = [OrderItemInline]

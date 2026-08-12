@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-website",
+  "version": "1.0.0",
+  "description": "Luxury Restaurant Website - Godavari Vindu",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "cd frontend && npm install && cd ../backend && venv\\Scripts\\pip.exe install -r requirements.txt",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && venv\\Scripts\\python.exe manage.py runserver",
+    "dev": "concurrently --names \"frontend,backend\" --prefix-colors \"blue,green\" \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "build:frontend": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "motion": "^12.42.0"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
