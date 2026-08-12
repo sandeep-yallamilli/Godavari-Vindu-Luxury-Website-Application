@@ -3,20 +3,13 @@
   "builds": [
     {
       "src": "godavari_vindu/wsgi.py",
-      "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "15mb"
-      }
+      "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/static/(.*)",
       "dest": "/static/$1"
-    },
-    {
-      "src": "/media/(.*)",
-      "dest": "godavari_vindu/wsgi.py"
     },
     {
       "src": "/(.*)",
