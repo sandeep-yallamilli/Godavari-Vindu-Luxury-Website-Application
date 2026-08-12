@@ -97,10 +97,11 @@ export default function Menu() {
 
   const getImageUrl = (url) => {
     if (!url) return '';
+    const mediaMatch = url.match(/\/media\/.*/);
+    if (mediaMatch) return mediaMatch[0];
+    if (url.startsWith('media/')) return '/' + url;
     if (url.startsWith('http')) return url;
-    const apiUrl = import.meta.env.VITE_API_URL || '';
-    const baseUrl = apiUrl ? apiUrl.replace('/api', '') : '';
-    return `${baseUrl}${url}`;
+    return `/media/${url.replace(/^\//, '')}`;
   };
 
   const handleCategoryChange = (slug) => {

@@ -25,9 +25,11 @@ const loadRazorpayScript = () => {
 
 const getImageUrl = (url) => {
   if (!url) return '/images/dish_1.png';
+  const mediaMatch = url.match(/\/media\/.*/);
+  if (mediaMatch) return mediaMatch[0];
+  if (url.startsWith('media/')) return '/' + url;
   if (url.startsWith('http')) return url;
-  const baseUrl = (import.meta.env.VITE_API_URL || 'http://localhost:8000/api').replace('/api', '');
-  return `${baseUrl}${url}`;
+  return `/media/${url.replace(/^\//, '')}`;
 };
 
 // ── SVG Brand Icons ──────────────────────────────────────────────────────────

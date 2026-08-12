@@ -18,7 +18,27 @@ from django.urls import path, include, re_path
 from django.conf import settings
 from django.views.static import serve
 
+from django.http import JsonResponse
+
+def home_api_root(request):
+    return JsonResponse({
+        "status": "online",
+        "message": "Welcome to Godavari Vindu Luxury Restaurant API",
+        "admin_url": "/admin/",
+        "endpoints": {
+            "categories": "/api/menu/categories/",
+            "menu_items": "/api/menu/items/",
+            "site_assets": "/api/menu/site-assets/",
+            "auth_register": "/api/auth/register/",
+            "auth_login": "/api/auth/login/",
+            "reservations": "/api/reservations/submit/",
+            "reviews": "/api/reviews/testimonials/"
+        }
+    })
+
 urlpatterns = [
+    path('', home_api_root),
+    path('api/', home_api_root),
     path('admin/', admin.site.urls),
     path('api/auth/', include('users.urls')),
     path('api/reservations/', include('reservations.urls')),

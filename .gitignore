@@ -31,7 +31,11 @@ frontend/dist/
 frontend/.env
 backend/.env
 
-# IDE / OS
+# IDE / OS / CLI Cache
+.firebase/
+frontend/.firebase/
+.vercel/
+backend/.vercel/
 .vscode/
 .idea/
 .DS_Store

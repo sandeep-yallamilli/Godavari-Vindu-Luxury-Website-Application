@@ -33,29 +33,27 @@ export const SiteProvider = ({ children }) => {
 
   const getAssetUrl = (key, fallbackLocalPath) => {
     if (siteAssets && siteAssets[key]) {
-      return siteAssets[key];
+      return getImageUrl(siteAssets[key]);
     }
     return fallbackLocalPath;
   };
 
   const getImageUrl = (url) => {
     if (!url) return '';
-    if (url.startsWith('http://') || url.startsWith('https://')) return url;
     if (url.startsWith('/images/') || url.startsWith('images/')) {
       return url.startsWith('/') ? url : '/' + url;
     }
-    const apiUrl = import.meta.env.VITE_API_URL || '';
-    const baseUrl = apiUrl ? apiUrl.replace(/\/api\/?$/, '') : '';
-    
-    let path = url;
-    if (!path.startsWith('/')) {
-      if (path.startsWith('media/')) {
-        path = '/' + path;
-      } else {
-        path = '/media/' + path;
-      }
+    const mediaMatch = url.match(/\/media\/.*/);
+    if (mediaMatch) {
+      return mediaMatch[0];
     }
-    return `${baseUrl}${path}`;
+    if (url.startsWith('media/')) {
+      return '/' + url;
+    }
+    if (url.startsWith('http://') || url.startsWith('https://')) {
+      return url;
+    }
+    return `/media/${url.replace(/^\//, '')}`;
   };
 
   return (
