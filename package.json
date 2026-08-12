@@ -8,7 +8,10 @@
     "dev:frontend": "cd frontend && npm run dev",
     "dev:backend": "cd backend && venv\\Scripts\\python.exe manage.py runserver",
     "dev": "concurrently --names \"frontend,backend\" --prefix-colors \"blue,green\" \"npm run dev:frontend\" \"npm run dev:backend\"",
-    "build:frontend": "cd frontend && npm install && npm run build"
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "setup:supabase": "cd backend && venv\\Scripts\\python.exe deploy_supabase.py",
+    "deploy:backend": "cd backend && npx vercel --prod",
+    "deploy:frontend": "cd frontend && npx firebase-tools deploy --only hosting"
   },
   "dependencies": {
     "motion": "^12.42.0"

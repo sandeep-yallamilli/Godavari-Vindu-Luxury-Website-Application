@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "godavari_vindu/wsgi.py",
+      "src": "backend/godavari_vindu/wsgi.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb"
@@ -12,11 +12,11 @@
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "/static/$1"
+      "dest": "backend/static/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "godavari_vindu/wsgi.py"
+      "dest": "backend/godavari_vindu/wsgi.py"
     }
   ]
 }

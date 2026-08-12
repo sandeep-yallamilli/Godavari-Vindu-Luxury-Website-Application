@@ -121,10 +121,13 @@ WSGI_APPLICATION = 'godavari_vindu.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# Use DATABASE_URL for Cloudflare Hyperdrive / PostgreSQL, fall back to SQLite for local dev
+# Use DATABASE_URL for Supabase / PostgreSQL, fall back to SQLite for local dev
 _DATABASE_URL = env('DATABASE_URL', default=None)
 if _DATABASE_URL and _dj_db_url and _DATABASE_URL.startswith(('postgres://', 'postgresql://')):
-    DATABASES = {'default': _dj_db_url.parse(_DATABASE_URL, conn_max_age=600)}
+    conn_max = env.int('DB_CONN_MAX_AGE', default=0 if not DEBUG else 600)
+    DATABASES = {
+        'default': _dj_db_url.parse(_DATABASE_URL, conn_max_age=conn_max, ssl_require=True)
+    }
 else:
     DATABASES = {
         'default': {
@@ -170,6 +173,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+if _WHITENOISE_AVAILABLE:
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -182,25 +187,31 @@ AUTH_USER_MODEL = 'users.User'
 # Frontend URL & Security Origins
 FRONTEND_URL = env('FRONTEND_URL', default='http://localhost:5173').rstrip('/')
 
-if not DEBUG:
+raw_cors = env.list('CORS_ALLOWED_ORIGINS', default=[])
+if raw_cors:
+    CORS_ALLOWED_ORIGINS = [origin.rstrip('/') for origin in raw_cors if origin]
+elif not DEBUG:
     if FRONTEND_URL:
         CORS_ALLOWED_ORIGINS = [FRONTEND_URL]
+        if '.web.app' in FRONTEND_URL:
+            CORS_ALLOWED_ORIGINS.append(FRONTEND_URL.replace('.web.app', '.firebaseapp.com'))
+        elif '.firebaseapp.com' in FRONTEND_URL:
+            CORS_ALLOWED_ORIGINS.append(FRONTEND_URL.replace('.firebaseapp.com', '.web.app'))
     else:
         CORS_ALLOW_ALL_ORIGINS = True
 else:
     CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
-    
+    r"^https://.*\.firebaseapp\.com$",
+    r"^https://.*\.web\.app$",
+    r"^https://.*\.vercel\.app$",
 ]
 
 _DEFAULT_CSRF_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
     'http://localhost:3000',
-    'https://*.firebaseapp.com',
-    'https://*.web.app',
-    'https://*.vercel.app',
 ]
 if FRONTEND_URL and FRONTEND_URL not in _DEFAULT_CSRF_ORIGINS:
     _DEFAULT_CSRF_ORIGINS.append(FRONTEND_URL)
