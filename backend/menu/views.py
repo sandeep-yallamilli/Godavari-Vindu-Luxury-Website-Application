@@ -11,17 +11,35 @@ class CategoryViewSet(viewsets.ReadOnlyModelViewSet):
     authentication_classes = []
 
 class MenuItemViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = MenuItem.objects.filter(is_available=True)
+    queryset = MenuItem.objects.filter(is_available=True).select_related('category')
     serializer_class = MenuItemSerializer
     permission_classes = [AllowAny]
     authentication_classes = []
 
     def get_queryset(self):
-        queryset = super().get_queryset()
+        queryset = MenuItem.objects.filter(is_available=True).select_related('category')
         category_slug = self.request.query_params.get('category')
         if category_slug:
             queryset = queryset.filter(category__slug=category_slug)
         return queryset
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        items = list(queryset.values(
+            'id', 'name', 'slug', 'description', 'price', 'price_half',
+            'has_half_option', 'serves', 'serves_half', 'image', 'is_available',
+            'category_id', 'category__name'
+        ))
+        for item in items:
+            item['category'] = item.pop('category_id')
+            item['category_name'] = item.pop('category__name')
+            if item['image']:
+                img_path = str(item['image'])
+                if not img_path.startswith('/') and not img_path.startswith('http'):
+                    item['image'] = '/media/' + img_path
+                else:
+                    item['image'] = img_path
+        return Response(items)
 
 class SiteAssetViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = SiteAsset.objects.all()

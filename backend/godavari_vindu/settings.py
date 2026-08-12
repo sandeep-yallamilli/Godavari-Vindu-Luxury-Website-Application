@@ -124,7 +124,7 @@ WSGI_APPLICATION = 'godavari_vindu.wsgi.application'
 # Use DATABASE_URL for Supabase / PostgreSQL, fall back to SQLite for local dev
 _DATABASE_URL = env('DATABASE_URL', default=None)
 if _DATABASE_URL and _dj_db_url and _DATABASE_URL.startswith(('postgres://', 'postgresql://')):
-    conn_max = env.int('DB_CONN_MAX_AGE', default=0 if not DEBUG else 600)
+    conn_max = env.int('DB_CONN_MAX_AGE', default=60)
     DATABASES = {
         'default': _dj_db_url.parse(_DATABASE_URL, conn_max_age=conn_max, ssl_require=True)
     }
